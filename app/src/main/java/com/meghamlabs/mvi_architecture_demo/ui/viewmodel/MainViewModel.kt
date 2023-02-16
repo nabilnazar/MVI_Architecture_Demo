@@ -2,6 +2,7 @@ package com.meghamlabs.mvi_architecture_demo.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.meghamlabs.mvi_architecture_demo.data.api.ApiHelper
 import com.meghamlabs.mvi_architecture_demo.data.repository.MainRepository
 import com.meghamlabs.mvi_architecture_demo.ui.intent.MainIntent
 import com.meghamlabs.mvi_architecture_demo.ui.viewstate.MainState
